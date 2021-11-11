@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>INNOVISION 優視達</title>
+    <script src="js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>   
+    <script src="bootstrap/js/hammer.min.js"></script><!--支援ad手機左右活動-->
+    <script src="bootstrap/js/jquery.hammer.js"></script> <!--支援ad手機左右活動-->  
+
+    <link rel="icon" href="images/all/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="images/all/favicon.ico" type="image/x-icon"/>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/all.css" rel="stylesheet">
+    <!--<link href="css/index.css" rel="stylesheet">-->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script>
+
+    $(document).ready(function(){ 
+      $.get("commonNav.html", function(data) {
+      $(".commonNav").html(data);
+      });
+    });  
+
+    $(document).ready(function(){ 
+      $.get("footer.html", function(data) {
+      $(".footer").html(data);
+      });
+    });  
+
+    </script>
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="commonNav">
+
+      </div><!--commonNav-->
+      <div class="areaDiv">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <h3><span class="tit-L">AREA</span>銷售據點<br/><span class="tit-S">AREA</span></h3>
+            </div>
+          </div><!--row-->
+          <div class="row">
+            <div class="col-xs-12 area-btnBox">
+              <a href="javascript:void(0)" target="_self" class="areaBtn now">眼鏡光學通路</a>
+              <a href="javascript:void(0)" target="_self" class="areaBtn">藥局/藥妝</a>
+            </div>
+          </div><!--row-->
+          <div class="row area-selectBox">
+            <div class="col-xs-6 col-md-3">
+              <select class="select">
+                <option value="">選擇縣市</option>
+              </select>
+            </div>
+            <div class="col-xs-6 col-md-3">
+              <select class="select">
+                <option value="">選擇區域</option>
+              </select>
+            </div>
+            <div class="col-xs-12 col-md-6">
+              <select class="select">
+                <option value="">選擇品項</option>
+                <option value="">CHIC!CHIC!UV．MOISTURE日拋彩色隱形眼鏡</option>
+              </select>
+            </div>
+          </div><!--row-->
+          <script>
+                    　　$(function(){
+                    　　　　$(".areaBox").click(function(){
+                    　　　　　if($(this).hasClass("areaBox-close")){
+                    　　　　　　　　$(this).removeClass("areaBox-close").addClass("areaBox-open");
+                    　　　　　}else{
+                    　　　　　　$(this).removeClass("areaBox-open").addClass("areaBox-close");
+                    　　　　　}
+                    　　　　})
+                    　　})
+          </script>
+          <div class="row areaBox areaBox-close">
+            <div class="col-xs-12 area-title">宏大光學眼鏡&nbsp;&nbsp;&nbsp;&nbsp;中壢<div class="area-listBtn">販售<br/>項目</div></div>
+            <div class="col-xs-12 col-md-5 area-address">地址：<a href="https://maps.google.com.tw/" target="_new" class="area-map">桃園縣中壢市龍岡路二段55號</a></div>
+            <div class="col-xs-12 col-md-3 area-phone">電話：<a href="tel:+886-3-4597686" class="area-phoneNb">03-459-7686</a></div>
+            <div class="col-xs-12 col-md-3 area-time">營業時間：11:00-22:00</div>
+            <div class="col-xs-12 area-product">
+              <a href="#" target="_self" class="area-productBtn">CHIC!CHIC!UV。MOISTURE<br/>日拋彩色隱形眼鏡</a>
+              <a href="#" target="_self" class="area-productBtn">日拋彩色隱形眼鏡</a>
+            </div>
+          </div><!--row areaBox-->
+          <div class="row areaBox areaBox-close">
+            <div class="col-xs-12 area-title">宏大光學眼鏡宏大光學眼鏡&nbsp;&nbsp;&nbsp;&nbsp;中壢<div class="area-listBtn">販售<br/>項目</div></div>
+            <div class="col-xs-12 col-md-5 area-address">地址：<a href="https://maps.google.com.tw/" target="_new" class="area-map">桃園縣中壢市龍岡路二段55號桃園縣中壢市龍岡路二段55號</a></div>
+            <div class="col-xs-12 col-md-3 area-phone">電話：<br/><a href="tel:+886-3-4597686" class="area-phoneNb">03-459-7686</a><br/><a href="tel:+886-3-4597686" class="area-phoneNb">03-459-7686</a></div>
+            <div class="col-xs-12 col-md-3 area-time">營業時間：<br/>週一-週五11:00-22:00<br/>週六10:30-22:00<br/>週日休息</div>
+            <div class="col-xs-12 area-product">
+              <a href="#" target="_self" class="area-productBtn">CHIC!CHIC!UV。MOISTURE<br/>日拋彩色隱形眼鏡</a>
+              <a href="#" target="_self" class="area-productBtn">日拋彩色隱形眼鏡</a>
+              <a href="#" target="_self" class="area-productBtn">CHIC!CHIC!UV。MOISTURE<br/>日拋彩色隱形眼鏡</a>
+              <a href="#" target="_self" class="area-productBtn">日拋彩色隱形眼鏡</a>
+              <a href="#" target="_self" class="area-productBtn">CHIC!CHIC!UV。MOISTURE<br/>日拋彩色隱形眼鏡</a>
+              <a href="#" target="_self" class="area-productBtn">日拋彩色隱形眼鏡</a>
+            </div>
+          </div><!--row areaBox-->
+          <div class="row areaBox areaBox-close">
+            <div class="col-xs-12 area-title">宏大光學眼鏡&nbsp;&nbsp;&nbsp;&nbsp;中壢<div class="area-listBtn">販售<br/>項目</div></div>
+            <div class="col-xs-12 col-md-5 area-address">地址：<a href="https://maps.google.com.tw/" target="_new" class="area-map">桃園縣中壢市龍岡路二段55號</a></div>
+            <div class="col-xs-12 col-md-3 area-phone">電話：03-459-7686</div>
+            <div class="col-xs-12 col-md-3 area-time">營業時間：11:00-22:00</div>
+            <div class="col-xs-12 area-product">
+              <a href="#" target="_self" class="area-productBtn">CHIC!CHIC!UV。MOISTURE<br/>日拋彩色隱形眼鏡</a>
+              <a href="#" target="_self" class="area-productBtn">日拋彩色隱形眼鏡</a>
+            </div>
+          </div><!--row areaBox-->
+          <div class="row areaBox areaBox-close">
+            <div class="col-xs-12 area-title">宏大光學眼鏡&nbsp;&nbsp;&nbsp;&nbsp;中壢<div class="area-listBtn">販售<br/>項目</div></div>
+            <div class="col-xs-12 col-md-5 area-address">地址：<a href="https://maps.google.com.tw/" target="_new" class="area-map">桃園縣中壢市龍岡路二段55號</a></div>
+            <div class="col-xs-12 col-md-3 area-phone">電話：03-459-7686</div>
+            <div class="col-xs-12 col-md-3 area-time">營業時間：11:00-22:00</div>
+            <div class="col-xs-12 area-product">
+              <a href="#" target="_self" class="area-productBtn">CHIC!CHIC!UV。MOISTURE<br/>日拋彩色隱形眼鏡</a>
+              <a href="#" target="_self" class="area-productBtn">日拋彩色隱形眼鏡</a>
+            </div>
+          </div><!--row areaBox-->
+          <div class="row">
+            <div class="col-xs-12 pageBar">
+              <a href="#" target="_self" class="pageBtn now">1</a>
+              <a href="#" target="_self" class="pageBtn">2</a>
+              <a href="#" target="_self" class="pageBtn">3</a>
+              <a href="#" target="_self" class="pageBtn">4</a>
+            </div><!--pageBar-->
+          </div><!--row-->
+        </div><!--container-->
+      </div><!--end of areaDiv-->
+      <div class="footer">
+        
+      </div><!--end of footer-->
+    </div><!--end of wrapper-->
+
+  </body>
+</html>

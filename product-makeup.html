@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>INNOVISION 優視達</title>
+    <script src="js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>   
+    <script src="bootstrap/js/hammer.min.js"></script><!--支援ad手機左右活動-->
+    <script src="bootstrap/js/jquery.hammer.js"></script> <!--支援ad手機左右活動-->  
+
+    <link rel="icon" href="images/all/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="images/all/favicon.ico" type="image/x-icon"/>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/all.css" rel="stylesheet">
+    <!--<link href="css/index.css" rel="stylesheet">-->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script>
+
+    $(document).ready(function(){ 
+      $.get("commonNav.html", function(data) {
+      $(".commonNav").html(data);
+      });
+    });  
+
+    $(document).ready(function(){ 
+      $.get("productNav.html", function(data) {
+      $(".productNav").html(data);
+      });
+    }); 
+
+    $(document).ready(function(){ 
+      $.get("footer.html", function(data) {
+      $(".footer").html(data);
+      });
+    });  
+
+    </script>
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="commonNav">
+        
+      </div><!--commonNav-->
+      <div class="productDiv">
+        <div class="container">
+          <div class="productNav"><!--productNav.html-->
+
+          </div><!--productNav.html-->
+          <div class="row pro-contentMakeup">
+            <div class="col-xs-12 col-md-9 col-md-offset-3">
+              <a href="#" target="_blank" class="makeupLink">
+                <img src="images/product/img-makeup-banner.jpg">
+              </a>
+
+            </div>
+          </div><!--row-->
+        </div><!--container-->
+      </div><!--end of productDiv-->
+      <div class="footer">
+
+      </div><!--end of footer-->
+    </div><!--end of wrapper-->
+  </body>
+</html>

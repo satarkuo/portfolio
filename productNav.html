@@ -1,0 +1,91 @@
+            <div class="row pro-tit">
+              <div class="col-xs-12 col-md-9 col-md-offset-3">
+                <h3><span class="tit-L">PRODUCTS</span>所有產品<br/><span class="tit-S">PRODUCTS</span></h3>
+                <div class="col-xs-4 col-lg-3">
+                  <a href="product.html" target="_self" class="btnContacts now">
+                    <span class="g"></span>
+                    <span class="w"></span>
+                    隱形眼鏡
+                  </a>
+                  <a href="javascript:void(0)" target="_self" class="btnContacts btnContacts-m now">
+                    <span class="g"></span>
+                    <span class="w"></span>
+                    隱形眼鏡
+                  </a>
+                </div>
+                <div class="col-xs-4 col-lg-3">
+                  <a href="product-makeup.html" target="_self" class="btnMakeup">
+                    <span class="g"></span>
+                    <span class="w"></span>
+                    彩妝商品
+                  </a>
+                </div>
+                <div class="col-xs-4 col-lg-3">
+                  <a href="product-life.html" target="_self" class="btnLife">
+                    <span class="g"></span>
+                    <span class="w"></span>
+                    生活小物
+                  </a>
+                </div>
+              </div>
+            </div><!--row-->
+            <div class="row">
+              <div class="col-xs-12 col-md-3">
+                <script>
+                  $(function(){
+                      $(".ulMenu").click(function(){
+                      　if($(this).hasClass("ulMenu-close")){
+                          $(this).removeClass("ulMenu-close").addClass("ulMenu-open");
+                      　}else{
+                      　　$(this).removeClass("ulMenu-open").addClass("ulMenu-close");
+                      　}
+                      })
+                  })
+                  $(function(){
+                      $(".btnContacts-m").click(function(){
+                      　if($(".pro-menu-m").hasClass("pro-menu-m-close")){
+                          $(".pro-menu-m").removeClass("pro-menu-m-close").addClass("pro-menu-m-open");
+                      　}else{
+                      　　$(".pro-menu-m").removeClass("pro-menu-m-open").addClass("pro-menu-m-close");
+                      　}
+                      })
+                  })
+                </script>
+                <div class="pro-menu">
+                  <a href="product.html" target="_self" class="btn-main">隱形眼鏡</a>
+                  <div class="pro-menu-m pro-menu-m-close">
+                    <div class="ulMenu ulMenu-close col-xs-4 col-md-12">
+                      <a href="javascript:void(0)" target="_self" class="btn-ul">彩色日拋
+                        <span class="arrow">
+                          <span class="a-1"></span>
+                          <span class="a-2"></span>
+                        </span>
+                      </a>
+                      <ul>
+                        <li><a href="productList.html">CHIC55%<br/>UV。MOISTURE</a></li>
+                        <li><a href="productList.html">CHIC38%</a></li>
+                      </ul>
+                    </div>
+                    <div class="ulMenu ulMenu-close col-xs-4 col-md-12">
+                      <a href="javascript:void(0)" target="_self" class="btn-ul">彩色月拋
+                        <span class="arrow">
+                          <span class="a-1"></span>
+                          <span class="a-2"></span>
+                        </span>
+                      </a>
+                      <ul>
+                        <li><a href="productList.html">VIRAL</a></li>
+                        <li><a href="productList.html">CHIC</a></li>
+                        <li><a href="productList.html">EYEDDiCT</a></li>
+                        <li><a href="productList.html">VIRAL</a></li>
+                        <li><a href="productList.html">CHIC</a></li>
+                        <li><a href="productList.html">EYEDDiCT</a></li>
+                      </ul>
+                    </div>
+                    <a href="productIntro.html" target="_self" class="btn-ul ul-2 col-xs-4 col-md-12">透明日拋</a>
+                  </div><!--pro-menu-m-->
+                  <a href="product-makeup.html" target="_self" class="btn-main">彩妝商品</a>
+                  <a href="product-life.html" target="_self" class="btn-main">生活小物</a>
+                </div><!--pro-menu-->
+              </div>
+            </div><!--row-->

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>INNOVISION 優視達</title>
+    <script src="js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>   
+    <script src="bootstrap/js/hammer.min.js"></script><!--支援ad手機左右活動-->
+    <script src="bootstrap/js/jquery.hammer.js"></script> <!--支援ad手機左右活動-->  
+
+    <link rel="icon" href="images/all/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="images/all/favicon.ico" type="image/x-icon"/>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/all.css" rel="stylesheet">
+    <!--<link href="css/index.css" rel="stylesheet">-->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script>
+
+    $(document).ready(function(){ 
+      $.get("commonNav.html", function(data) {
+      $(".commonNav").html(data);
+      });
+    });  
+
+    $(document).ready(function(){ 
+      $.get("productNav.html", function(data) {
+      $(".productNav").html(data);
+      });
+    }); 
+
+    $(document).ready(function(){ 
+      $.get("footer.html", function(data) {
+      $(".footer").html(data);
+      });
+    });  
+
+    </script>
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="commonNav">
+        
+      </div><!--commonNav-->
+      <div class="productDiv">
+        <div class="container">
+          <div class="productNav"><!--productNav.html-->
+
+          </div><!--productNav.html-->
+          <div class="row pro-contentIntro">
+            <div class="col-xs-12 col-md-9 col-md-offset-3">
+              <h5>CHIC!CHIC!UV。MOISTURE日拋彩色隱形眼鏡</h5>
+            </div>
+            <div class="col-xs-12 col-md-9 col-md-offset-3">
+              <div class="IntroBox">
+                <img src="images/product/img-productIntro-1.jpg">
+                <div class="IntroTit">
+                  <span>CHIC!CHIC!UV。MOISTURE日拋彩色隱形眼鏡</span>
+                </div>
+                 <div class="IntroColor">
+                  <span>PEACH BROWN | 甜桃棕</span>
+                </div>
+                <div class="IntroPrice">
+                  TWD$<span>299</span>
+                </div>
+                <a href="area.html" target="_self" class="IntroAreaBtn">販售據點</a>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-9 col-md-offset-3">
+              <div class="IntroContentImg">
+                <div class="pc">
+                  <img src="images/product/img-productIntro-1-pc-1.jpg">
+                  <img src="images/product/img-productIntro-1-pc-2.jpg">
+                </div>
+                <div class="mobile">
+                  <img src="images/product/img-productIntro-1-m-1.jpg">
+                  <img src="images/product/img-productIntro-1-m-2.jpg">
+                </div>
+              </div>
+              <div class="IntroContentTxt">
+                <h6>規格說明：</h6>
+                <p>
+                  KARACON Soft Contact Lens-One day<br/>
+                  卡拉瞳每日拋棄式隱形眼鏡<br/>
+                  規格：10片裝 / 30片裝 直徑：14.0mm<br/>
+                  含水量：38% / 基弧：8.7mm<br/>
+                  度數： -0.10 ~ -10.00 (-1.00以上, 間隔0.25 ; -6.00以上, 間隔0.50)<br/>
+                  全台部分康是美 上架開賣<br/>
+                  全台部分日系Tomod's三友藥妝 上架開賣
+                </p>
+                <h6>廣字號：</h6>
+                <p>衛部醫器製字第005312號、衛部醫器製字第005946號、衛部醫器製字第005947號、衛部醫器製字第006128號、衛部醫器製字第006119號、衛部醫器製字第006208號、衛部醫廣製字第10803012號、衛部醫器廣字第10812014號、衛部醫器廣字第10812015號</p>
+              </div>
+            </div>
+          </div><!--row-->
+        </div><!--container-->
+      </div><!--end of productDiv-->
+      <div class="footer">
+
+      </div><!--end of footer-->
+    </div><!--end of wrapper-->
+  </body>
+</html>

@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>INNOVISION 優視達</title>
+    <script src="js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>   
+    <script src="bootstrap/js/hammer.min.js"></script><!--支援ad手機左右活動-->
+    <script src="bootstrap/js/jquery.hammer.js"></script> <!--支援ad手機左右活動-->  
+
+    <link rel="icon" href="images/all/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="images/all/favicon.ico" type="image/x-icon"/>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/all.css" rel="stylesheet">
+    <!--<link href="css/index.css" rel="stylesheet">-->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script>
+
+    $(document).ready(function(){ 
+      $.get("commonNav.html", function(data) {
+      $(".commonNav").html(data);
+      });
+    });  
+
+    $(document).ready(function(){ 
+      $.get("productNav.html", function(data) {
+      $(".productNav").html(data);
+      });
+    }); 
+
+    $(document).ready(function(){ 
+      $.get("footer.html", function(data) {
+      $(".footer").html(data);
+      });
+    });  
+
+    </script>
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="commonNav">
+        
+      </div><!--commonNav-->
+      <div class="productDiv">
+        <div class="container">
+          <div class="productNav"><!--productNav.html-->
+
+          </div><!--productNav.html-->
+          <div class="row pro-content">
+            <div class="col-xs-12 col-md-9 col-md-offset-3">
+              <h6>彩色日拋</h6>
+              <script type="text/javascript">
+                // AD手機滑動-491px以上
+                $(function(){
+                  $('#product-1').hammer().on('swipeleft', function(){  
+                      $(this).carousel('next');  
+                  });  
+                  
+                  $('#product-1').hammer().on('swiperight', function(){  
+                      $(this).carousel('prev');  
+                  });  
+                });
+                // AD手機滑動-490px以下
+                $(function(){
+                  $('#product-1-m').hammer().on('swipeleft', function(){  
+                      $(this).carousel('next');  
+                  });  
+                  
+                  $('#product-1-m').hammer().on('swiperight', function(){  
+                      $(this).carousel('prev');  
+                  });  
+                });
+              </script>
+              <!--491px以上顯示product-1-->
+              <div id="product-1" class="carousel slide" data-ride="">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#product-1" data-slide-to="0" class="active">1</li>
+                  <li data-target="#product-1" data-slide-to="1" class="">2</li>
+                  <li data-target="#product-1" data-slide-to="2" class="">3</li>
+                </ol>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                  <div class="row item active">
+                    <div class="col-xs-4 box">
+                      <a href="productList.html" target="_self" class="listBox">
+                        <div class="imgBox">
+                          <img src="images/product/img-product-1-L.jpg" class="img-lg">
+                          <img src="images/product/img-product-3-L-hover.jpg" class="img-lg-hover">
+                        </div>
+                        <div class="btnBox">
+                          CHIC!CHIC!UV。MOISTURE<br/>日拋彩色隱形眼鏡
+                        </div>
+                        <div class="price">TWD$<span>299</span></div>
+                      </a><!--listBox-->
+                    </div>
+                    <div class="col-xs-4 box">
+                      <a href="productList.html" target="_self" class="listBox">
+                        <div class="imgBox">
+                          <img src="images/product/img-product-2-L.jpg" class="img-lg">
+                          <img src="images/product/img-product-3-L-hover.jpg" class="img-lg-hover">
+                        </div>
+                        <div class="btnBox">
+                          日拋彩色隱形眼鏡日拋彩色隱形眼鏡日拋彩色隱形眼鏡日拋彩色隱形眼鏡
+                        </div>
+                        <div class="price">TWD$<span>299</span></div>
+                      </a><!--listBox-->
+                    </div>
+                    <div class="col-xs-4 box">
+                      <a href="productList.html" target="_self" class="listBox">
+                        <div class="imgBox">
+                          <img src="images/product/img-product-3-L.jpg" class="img-lg">
+                          <img src="images/product/img-product-3-L-hover.jpg" class="img-lg-hover">
+                        </div>
+                        <div class="btnBox">
+                          CHIC!CHIC!UV。MOISTURE<br/>日拋彩色隱形眼鏡
+                        </div>
+                        <div class="price">TWD$<span>299</span></div>
+                      </a><!--listBox-->
+                    </div>
+                  </div>
+                  <div class="row item">
+                    <div class="col-xs-4 box">
+                      <a href="productList.html" target="_self" class="listBox">
+                        <div class="imgBox">
+                          <img src="images/product/img-product-1-L.jpg" class="img-lg">
+                          <img src="images/product/img-product-3-L-hover.jpg" class="img-lg-hover">
+                        </div>
+                        <div class="btnBox">
+                          CHIC!CHIC!UV。MOISTURE<br/>日拋彩色隱形眼鏡
+                        </div>
+                        <div class="price">TWD$<span>299</span></div>
+                      </a><!--listBox-->
+                    </div>
+                    <div class="col-xs-4 box">
+                      <a href="productList.html" target="_self" class="listBox">
+                        <div class="imgBox">
+                          <img src="images/product/img-product-2-L.jpg" class="img-lg">
+                          <img src="images/product/img-product-3-L-hover.jpg" class="img-lg-hover">
+                        </div>
+                        <div class="btnBox">
+                          CHIC!CHIC!UV。MOISTURE<br/>日拋彩色隱形眼鏡
+                        </div>
+                        <div class="price">TWD$<span>299</span></div>
+                      </a><!--listBox-->
+                    </div>
+                    <div class="col-xs-4 box">
+                      <a href="productList.html" target="_self" class="listBox">
+                        <div class="imgBox">
+                          <img src="images/product/img-product-3-L.jpg" class="img-lg">
+                          <img src="images/product/img-product-3-L-hover.jpg" class="img-lg-hover">
+                        </div>
+                        <div class="btnBox">
+                          CHIC!CHIC!UV。MOISTURE<br/>日拋彩色隱形眼鏡
+                        </div>
+                        <div class="price">TWD$<span>299</span></div>
+                      </a><!--listBox-->
+                    </div>
+                  </div>
+                  <div class="row item">
+                    <div class="col-xs-4 box">
+                      <a href="productList.html" target="_self" class="listBox">
+                        <div class="imgBox">
+                          <img src="images/product/img-product-1-L.jpg" class="img-lg">
+                          <img src="images/product/img-product-3-L-hover.jpg" class="img-lg-hover">
+                        </div>
+                        <div class="btnBox">
+                          CHIC!CHIC!UV。MOISTURE<br/>日拋彩色隱形眼鏡
+                        </div>
+                        <div class="price">TWD$<span>299</span></div>
+                      </a><!--listBox-->
+                    </div>
+                    <div class="col-xs-4 box">
+                      <a href="productList.html" target="_self" class="listBox">
+                        <div class="imgBox">
+                          <img src="images/product/img-product-2-L.jpg" class="img-lg">
+                          <img src="images/product/img-product-3-L-hover.jpg" class="img-lg-hover">
+                        </div>
+                        <div class="btnBox">
+                          CHIC!CHIC!UV。MOISTURE<br/>日拋彩色隱形眼鏡
+                        </div>
+                        <div class="price">TWD$<span>299</span></div>
+                      </a><!--listBox-->
+                    </div>
+                    <div class="col-xs-4 box">
+                      <a href="productList.html" target="_self" class="listBox">
+                        <div class="imgBox">
+                          <img src="images/product/img-product-3-L.jpg" class="img-lg">
+                          <img src="images/product/img-product-3-L-hover.jpg" class="img-lg-hover">
+                        </div>
+                        <div class="btnBox">
+                          CHIC!CHIC!UV。MOISTURE<br/>日拋彩色隱形眼鏡
+                        </div>
+                        <div class="price">TWD$<span>299</span></div>
+                      </a><!--listBox-->
+                    </div>
+                  </div>
+                </div>
+              </div><!-- product-1 slide-->
+              <!--490px以下顯示product-1-m-->
+              <div id="product-1-m" class="carousel slide" data-ride="">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#product-1-m" data-slide-to="0" class="active">1</li>
+                  <li data-target="#product-1-m" data-slide-to="1" class="">2</li>
+                  <li data-target="#product-1-m" data-slide-to="2" class="">3</li>
+                </ol>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                  <div class="row item active">
+                    <div class="col-xs-6 box">
+                      <a href="productList.html" target="_self" class="listBox">
+                        <div class="imgBox">
+                          <img src="images/product/img-product-1-L.jpg" class="img-lg">
+                          <img src="images/product/img-product-3-L-hover.jpg" class="img-lg-hover">
+                        </div>
+                        <div class="btnBox">
+                          CHIC!CHIC!UV。MOISTURE<br/>日拋彩色隱形眼鏡
+                        </div>
+                        <div class="price">TWD$<span>299</span></div>
+                      </a><!--listBox-->
+                    </div>
+                    <div class="col-xs-6 box">
+                      <a href="productList.html" target="_self" class="listBox">
+                        <div class="imgBox">
+                          <img src="images/product/img-product-3-L.jpg" class="img-lg">
+                          <img src="images/product/img-product-3-L-hover.jpg" class="img-lg-hover">
+                        </div>
+                        <div class="btnBox">
+                          日拋彩色隱形眼鏡日拋彩色隱形眼鏡日拋彩色隱形眼鏡日拋彩色隱形眼鏡
+                        </div>
+                        <div class="price">TWD$<span>299</span></div>
+                      </a><!--listBox-->
+                    </div>
+                  </div>
+                  <div class="row item">
+                    <div class="col-xs-6 box">
+                      <a href="productList.html" target="_self" class="listBox">
+                        <div class="imgBox">
+                          <img src="images/product/img-product-1-L.jpg" class="img-lg">
+                          <img src="images/product/img-product-3-L-hover.jpg" class="img-lg-hover">
+                        </div>
+                        <div class="btnBox">
+                          CHIC!CHIC!UV。MOISTURE<br/>日拋彩色隱形眼鏡
+                        </div>
+                        <div class="price">TWD$<span>299</span></div>
+                      </a><!--listBox-->
+                    </div>
+                    <div class="col-xs-6 box">
+                      <a href="productList.html" target="_self" class="listBox">
+                        <div class="imgBox">
+                          <img src="images/product/img-product-3-L.jpg" class="img-lg">
+                          <img src="images/product/img-product-3-L-hover.jpg" class="img-lg-hover">
+                        </div>
+                        <div class="btnBox">
+                          CHIC!CHIC!UV。MOISTURE<br/>日拋彩色隱形眼鏡
+                        </div>
+                        <div class="price">TWD$<span>299</span></div>
+                      </a><!--listBox-->
+                    </div>
+                  </div>
+                  <div class="row item">
+                    <div class="col-xs-6 box">
+                      <a href="productList.html" target="_self" class="listBox">
+                        <div class="imgBox">
+                          <img src="images/product/img-product-1-L.jpg" class="img-lg">
+                          <img src="images/product/img-product-3-L-hover.jpg" class="img-lg-hover">
+                        </div>
+                        <div class="btnBox">
+                          CHIC!CHIC!UV。MOISTURE<br/>日拋彩色隱形眼鏡
+                        </div>
+                        <div class="price">TWD$<span>299</span></div>
+                      </a><!--listBox-->
+                    </div>
+                    <div class="col-xs-6 box">
+                      <a href="productList.html" target="_self" class="listBox">
+                        <div class="imgBox">
+                          <img src="images/product/img-product-3-L.jpg" class="img-lg">
+                          <img src="images/product/img-product-3-L-hover.jpg" class="img-lg-hover">
+                        </div>
+                        <div class="btnBox">
+                          CHIC!CHIC!UV。MOISTURE<br/>日拋彩色隱形眼鏡
+                        </div>
+                        <div class="price">TWD$<span>299</span></div>
+                      </a><!--listBox-->
+                    </div>
+                  </div>
+                </div>
+              </div><!-- product-1-m slide-->
+            </div>
+            <div class="col-xs-12 col-md-9 col-md-offset-3">
+              <h6>彩色月拋</h6>
+              <div class="row row-pc">
+                <div class="col-xs-4 box">
+                  <a href="productList.html" target="_self" class="listBox">
+                    <div class="imgBox">
+                      <img src="images/product/img-product-1-L.jpg" class="img-lg">
+                      <img src="images/product/img-product-3-L-hover.jpg" class="img-lg-hover">
+                    </div>
+                    <div class="btnBox">
+                      CHIC!CHIC!UV。MOISTURE<br/>日拋彩色隱形眼鏡
+                    </div>
+                    <div class="price">TWD$<span>299</span></div>
+                  </a><!--listBox-->
+                </div><!--box-->
+                <div class="col-xs-4 box">
+                  <a href="productList.html" target="_self" class="listBox">
+                    <div class="imgBox">
+                      <img src="images/product/img-product-2-L.jpg" class="img-lg">
+                      <img src="images/product/img-product-3-L-hover.jpg" class="img-lg-hover">
+                    </div>
+                    <div class="btnBox">
+                      CHIC!CHIC!UV。MOISTURE<br/>日拋彩色隱形眼鏡
+                    </div>
+                    <div class="price">TWD$<span>299</span></div>
+                  </a><!--listBox-->
+                </div><!--box-->
+                <div class="col-xs-4 box">
+                  <a href="productList.html" target="_self" class="listBox">
+                    <div class="imgBox">
+                      <img src="images/product/img-product-3-L.jpg" class="img-lg">
+                      <img src="images/product/img-product-3-L-hover.jpg" class="img-lg-hover">
+                    </div>
+                    <div class="btnBox">
+                      CHIC!CHIC!UV。MOISTURE<br/>日拋彩色隱形眼鏡
+                    </div>
+                    <div class="price">TWD$<span>299</span></div>
+                  </a><!--listBox-->
+                </div><!--box-->
+                <div class="col-xs-12 pageBar">
+                  <a href="#" target="_self" class="pageBtn now">1</a>
+                  <a href="#" target="_self" class="pageBtn">2</a>
+                  <a href="#" target="_self" class="pageBtn">3</a>
+                </div>
+              </div><!--row-pc-->
+              <div class="row row-m">
+                <div class="col-xs-6 box">
+                  <a href="productList.html" target="_self" class="listBox">
+                    <div class="imgBox">
+                      <img src="images/product/img-product-1-L.jpg" class="img-lg">
+                      <img src="images/product/img-product-3-L-hover.jpg" class="img-lg-hover">
+                    </div>
+                    <div class="btnBox">
+                      CHIC!CHIC!UV。MOISTURE<br/>日拋彩色隱形眼鏡
+                    </div>
+                    <div class="price">TWD$<span>299</span></div>
+                  </a><!--listBox-->
+                </div><!--box-->
+                <div class="col-xs-6 box">
+                  <a href="productList.html" target="_self" class="listBox">
+                    <div class="imgBox">
+                      <img src="images/product/img-product-3-L.jpg" class="img-lg">
+                      <img src="images/product/img-product-3-L-hover.jpg" class="img-lg-hover">
+                    </div>
+                    <div class="btnBox">
+                      CHIC!CHIC!UV。MOISTURE<br/>日拋彩色隱形眼鏡
+                    </div>
+                    <div class="price">TWD$<span>299</span></div>
+                  </a><!--listBox-->
+                </div><!--box-->
+                <div class="col-xs-12 pageBar">
+                  <a href="#" target="_self" class="pageBtn now">1</a>
+                  <a href="#" target="_self" class="pageBtn">2</a>
+                  <a href="#" target="_self" class="pageBtn">3</a>
+                </div>
+              </div><!--row-m-->
+            </div>
+            <div class="col-xs-12 col-md-9 col-md-offset-3">
+              <h6>透明日拋</h6>
+              <div class="box">
+                  <a href="productIntro.html" target="_self" class="listBox">
+                    <div class="imgBox">
+                      <img src="images/product/img-product-banner1.jpg" class="img-lg">
+                    </div>
+                    <div class="btnBox">
+                      CHIC!CHIC!UV。MOISTURE日拋彩色隱形眼鏡
+                    </div>
+                    <div class="price">TWD$<span>299</span></div>
+                  </a><!--listBox-->
+                </div><!--box-->
+                <div class="col-xs-12 pageBar">
+                  <a href="#" target="_self" class="pageBtn now">1</a>
+                  <a href="#" target="_self" class="pageBtn">2</a>
+                  <a href="#" target="_self" class="pageBtn">3</a>
+                </div>
+            </div>
+          </div><!--row-->
+        </div><!--container-->
+      </div><!--end of productDiv-->
+      <div class="footer">
+
+      </div><!--end of footer-->
+    </div><!--end of wrapper-->
+  </body>
+</html>
